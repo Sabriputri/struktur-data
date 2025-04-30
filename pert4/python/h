@@ -1,0 +1,19 @@
+def tambah(a, b):
+    return a + b
+
+def kurang(a, b):
+    return a - b
+
+def kali(a, b):
+    return a * b
+
+def bagi(a, b):
+    if b == 0:
+        return "Tidak bisa dibagi dengan nol"
+    return a / b
+
+# Contoh penggunaan:
+print("Tambah: ", tambah(10, 5))   # Output: 15
+print("Kurang: ", kurang(10, 5))   # Output: 5
+print("Kali: ", kali(10, 5))       # Output: 50
+print("Bagi: ", bagi(10, 5))       # Output: 2.0
